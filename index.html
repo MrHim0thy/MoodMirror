@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodMirror</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>MoodMirror 🎧</h1>
+
+  <div id="auth-section">
+    <button id="login-button">Login with Spotify</button>
+  </div>
+
+  <div id="mood-section" style="display: none;">
+    <h2>How are you feeling today?</h2>
+    <select id="mood-select">
+      <option value="happy">Happy 😊</option>
+      <option value="sad">Sad 😢</option>
+      <option value="calm">Calm 😌</option>
+      <option value="anxious">Anxious 😰</option>
+      <option value="energized">Energized ⚡</option>
+    </select>
+    <button onclick="submitMood()">Generate Playlist</button>
+
+    <h3>Your Mood History</h3>
+    <ul id="mood-history"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
