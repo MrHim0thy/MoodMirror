@@ -1,3 +1,9 @@
+To use paste
+https://MrHim0thy.github.io/MoodMirror
+In Browser
+
+
+
 MoodMirror: Emotion-Based Music Playlist Generator
 
 MoodMirror is a personalized music web app that uses the Spotify API to generate daily playlists based on your emotional state. By logging your mood, the app curates a playlist that either reflects your current feeling or counterbalances it — helping you lean into your emotions or lift yourself out of them.
