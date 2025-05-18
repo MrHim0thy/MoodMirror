@@ -1,5 +1,5 @@
-const clientId = 'YOUR_SPOTIFY_CLIENT_ID';
-const redirectUri = 'https://yourusername.github.io/MoodMirror'; // Replace with your GitHub Pages URL
+const clientId = 'bc333e004c0e4deb84778c5857822b20';
+const redirectUri = 'https://MrHim0thy.github.io/MoodMirror'; // Replace with your GitHub Pages URL
 const scopes = 'playlist-modify-public user-top-read';
 
 document.getElementById("login-button").addEventListener("click", () => {
