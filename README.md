@@ -1,6 +1,6 @@
-To use paste
+To use paste in browser
 https://MrHim0thy.github.io/MoodMirror
-In Browser
+
 
 
 
